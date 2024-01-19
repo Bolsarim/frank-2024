@@ -56,3 +56,43 @@
     position: absolute;
     top: -10px
 }
+
+.ajuda {
+    background-color: #a5c8f5;
+    border: 1px solid #000000;
+    font-size: 0.9em;
+    padding: 10px;
+    position: relative;
+    width: 300px;
+    margin-left: 20px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.ajuda::before{
+    border-color: transparent #a5c8f5 transparent transparent;
+    border-style: solid;
+    border-width: 14px;
+    content: "";
+    left: -28px;
+    margin-top: -14px;
+    position: absolute;
+    top: 50%;
+}
+
+
+
+
+
+
+
+.help {
+    background-color: #999;
+    border: 1px solid #000;
+    font-size: 0.9em;
+    padding: 10px;
+    position: relative;
+    width: 300px;
+    margin-left: 20px;
+    display: inline-block;
+    vertical-align: middle;
+}
